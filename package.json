@@ -1,0 +1,31 @@
+{
+  "name": "PubSubWithProxy",
+  "version": "0.0.1",
+  "description": "PubSub with local proxy (event emitter) and Redis - demo",
+  "author": "Erik Hazzard <enoex1@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/enoex/PubSubWithProxy"
+  },
+  "keywords": [
+    "pubsub",
+    "scale",
+    "proxy"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "async": "^1.5.2",
+    "bragi": "^0.1.1",
+    "d3": "^3.5.13",
+    "hiredis": "^0.4.1",
+    "ioredis": "^1.14.0",
+    "lodash": "^4.0.0",
+    "microtime": "^2.0.0",
+    "mocha": "^2.3.4",
+    "uuid": "^2.0.1"
+  },
+  "devDependencies": {},
+  "bugs": {
+    "url": "https://github.com/enoex/PubSubWithProxy/issues"
+  }
+}
