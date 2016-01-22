@@ -6,6 +6,10 @@ c4.4xlarge instance for redis, tests using a similar implementation reached
 over 100k connected clients at 10k messages/sec with all clients subscribing to 
 a single channel. 
 
+This is not a ready-to-go npm installable package; this is just an example of
+a potential architecture implementation using Redis PubSub and locally proxying
+connections to reduce Redis load.
+
 This is achieved by having each instance proxy subscriptions to a single (or
 small number) of redis connections, so that while each instance may have hundreds
 or thousands of subscribers, a single subscriber to redis is shared amongst them.
